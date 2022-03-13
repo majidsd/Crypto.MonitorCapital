@@ -1,0 +1,1 @@
+MJ249.Crypto.MonitorCapital
