@@ -2,7 +2,7 @@
 
 namespace Domain.Entities;
 
-internal class Currency : AuditTableEntity
+public class Currency : AuditTableEntity
 {
     public int Id { get; set; }
     public string? Name { get; set; }

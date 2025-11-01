@@ -3,7 +3,7 @@ using Domain.Enums;
 
 namespace Domain.Entities;
 
-internal class Transaction : AuditTableEntity
+public class Transaction : AuditTableEntity
 {
     public int Id { get; set; }
     public Currency? FilledCryptocurrency { get; set; }

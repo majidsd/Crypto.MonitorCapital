@@ -1,7 +1,7 @@
 ﻿
 namespace Domain.Common;
 
-internal abstract class AuditTableEntity
+public abstract class AuditTableEntity
 {
     public DateTime CreatedAt { get; set; }
     public string? CreatedBy { get; set; }
